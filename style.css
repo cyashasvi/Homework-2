@@ -1,0 +1,61 @@
+:root {
+    background: linear-gradient(#e66465, #9198e5);
+ --font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+    font-family: var(--font);
+}
+ul {
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: var(--font);
+}
+
+
+nav a {
+    color: #9198e5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(47, 47, 153)
+}
+
+#aboutMe{
+    max-width: 500px;
+    font-family: var(--font);
+    border-style: ridge;
+    padding: 2%;
+    border-color: navy;
+    text-align: justify
+}
+
+#aboutMe:hover{
+    box-shadow: 10px 10px black;
+
+}
+
+h2{
+    font-family: var(--font);
+}
+
+h2:hover {
+    color: rgb(47, 47, 153);
+}
+
+#sidebar{
+    padding:25% 0%;
+    border-right-style: ridge;
+    border-right-width: 10px;
+    border-color: navy;
+    max-width: 74px;
+}
+
+#Work {
+    display: flex;
+    justify-content:space-around;
+
+}
